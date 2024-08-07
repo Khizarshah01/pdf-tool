@@ -1,0 +1,36 @@
+#heading{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 30px;
+    margin-top: 0;
+}
+#head1{
+    color: red;
+    padding-right: 10px;
+    height: 30px;
+    margin: 3px;
+}
+#head2{
+    color: whitesmoke;
+    height: 30px;
+    margin: 3px;
+    
+}
+
+
+#Nav{
+    font-weight: 400;
+    letter-spacing: 0.115em;
+    line-height: 0.9;
+    font-size: 22px;
+  
+}
+
+#Navin{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style-type: none;
+      
+}
