@@ -1,0 +1,49 @@
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .formdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 29px;
+line-height: 1.3;
+letter-spacing: 0.091em;
+font-weight: 500;
+font-style: normal;
+  }
+  
+  .radioGroup {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .radioInput {
+    margin-right: 8px;
+  }
+  
+  .label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .submitButton {
+    background-color: #f01717;
+    color: #fff;
+    border: none;
+    padding: 15px 80px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+  }
+  
+  .submitButton:hover {
+    background-color: #9c0000;
+  }
+  

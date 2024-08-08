@@ -8,10 +8,10 @@ function Navbar() {
         <div id={Navcss.Nav}>
             <ul id={Navcss.Navin}>
                 <Link to='/' ><li>Home</li></Link>
+                <Link to='/Compress' ><li>Compresser</li></Link>
                 <Link to='/Merge' ><li>Merger</li></Link>
                 <Link to='/Crop' ><li>Croper</li></Link>
                 <Link to='/Filter' ><li>Filter</li></Link>
-                <Link to='/Compress' ><li>Compresser</li></Link>
                 <li>More Tools</li>
             </ul>
         </div>
