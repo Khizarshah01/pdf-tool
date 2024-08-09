@@ -6,7 +6,8 @@ function Compress() {
     <div className="bodys">
       <h2>Compress</h2>
       
-      <form className={Compres.formdiv}>
+      <form className={Compres.formdiv} action="http://localhost:5000/compress" method="post" encType="multipart/form-data">
+        <input type='file' accept="application/pdf" ></input>
         <div className={Compres.radioGroup}>
           <div>
           <input type="radio" id="low" name="compression" value="low" className={Compres.radioInput} />
@@ -23,8 +24,7 @@ function Compress() {
           <label htmlFor="high" className={Compres.label}>High</label>
         </div>
         </div>
-        
-        <button className={Compres.submitButton}>Choose Pdf</button>
+        <input className={Compres.submitButton} type='submit' value={"Submit Pdf"}></input>
       </form>
     </div>
   );

@@ -21,29 +21,38 @@ font-style: normal;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-top: 20px;
   }
   
+ 
+  h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+  }
   .radioInput {
     margin-right: 8px;
   }
   
   .label {
-    font-size: 16px;
+    font-size: 26px;
     color: #333;
   }
   
   .submitButton {
-    background-color: #f01717;
+    background-color: green;
     color: #fff;
     border: none;
-    padding: 15px 80px;
+    padding: 20px 200px;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .submitButton:hover {
-    background-color: #9c0000;
+    background-color: #039c00;
   }
+  
+
   
